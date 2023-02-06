@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Web 1 - Assign 1</title>
+   <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+   <!--<link rel="stylesheet" href="css/reset.css" />-->
+   <link rel="stylesheet" href="shareTravels.css" />      
+</head>
+<body>
+    <header>
+        <h1>Share Your Travels</h1> 
+        <p>Let us know where you've been</p>  
+    </header>
+    <article>
+        <form action="http://www.randyconnolly.com/tests/process.php" method="post">
+            <fieldset>
+                <section id="main">
+                    <h2>PHOTO DETAILS</h2>
+                    <div>
+                        <P>
+                            Title <br>
+                            <input id="title" type="text" name="title" placeholder="Give your photo a descriptive name" />
+                        </P>
+                        <p>
+                            Description <br>
+                            <input id="Description" type="text" name="description"  placeholder="Adding a rich description will help with search results" />
+                        </p>
+                    </div>
+                    <section id="location">
+                        <p>
+                            <label>Continent</label><br>
+                            <select name="continent">
+                                <option>Choose a Continent</option>
+                                <option>Africa</option>
+                                <option>Antarctica</option>
+                                <option>Asia</option>
+                                <option>North America</option>
+                                <option>South America</option>
+                                <option>Europe</option>
+                                <option>Australia/Oceania</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label>Country</label><br>
+                            <select name="country">
+                                <option>Choose a Country</option>
+                                <option>Canada</option>
+                                <option>Nigeria</option>
+                                <option>Ghana</option>
+                                <option>Cameroon</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label>City</label><br>
+                            <input id="city" type="text" name="city"/>
+                        </p>
+                    </section>
+                    <section>
+                        <p id="copy">
+                            <label>Copyright?</label><br>
+                            <input type="radio" name="cc" value="1">All rights reserved <br>
+                            <input type="radio" name="cc" value="2">Creative Commons
+                        </p>
+                        <p id="types">
+                            <label>Creative Commons Types</label><br>
+                            <input type="checkbox" name="visit[]" value="1">Attribution <br>
+                            <input type="checkbox" name="visit[]" value="2">Noncommercial <br>
+                            <input type="checkbox" name="visit[]" value="3">No Derivative Works
+                        </p>
+                        <p id="accept">I accept the software license
+                            <input type="checkbox" name="accept" autocomplete="off">
+                        </p>
+                    </section>
+                    <section id="rate">
+                        <p>
+                            <label>Rate this page: </label><br>
+                            <input type="number" min="0" max="5" name="rate"/>
+                        </p>
+                        <p>
+                            <label>Color Collection</label><br>
+                            <input type="color" name="back"/>
+                        </p>
+                    </section> 
+                    <section id="date">
+                        <p>
+                            <label>Date Taken:</label><br>
+                            <input type="date" name="date">
+                        </p>
+                        <p>
+                            <label>Time Taken:</label><br>
+                            <input type="time" name="time">
+                        </p>
+                    </section>
+                    <p id="button">
+                        <input id="submit" type="submit" value="Submit">
+                        <input id="clear" type="reset" value="Clear ">
+                    </p>
+                </section>
+            </fieldset>
+        </form>
+    </article>
+</body>
+<footer>
+
+</footer>
+</html>

@@ -1,0 +1,147 @@
+/* general text formatting */
+body {
+    font-family: Georgia, Cambria, "Times New Roman", serif;
+    font-size: 100%;
+    background-color: #E8EAF6;
+}
+fieldset{
+    border: none;
+}
+
+/* header*/
+header {
+    background-color: #2C307A;
+    color: #fff;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    margin-top: 0;
+    padding-left: 1.5em;
+    padding-top: 0.01em;
+}
+h1{
+    font-family: Lobster;
+}
+header p{
+    margin-top: -1em;
+    padding-bottom: 0.25em;
+}
+
+/* main article styling */
+article {
+    background-color: #fff;
+    padding: 1em 1em 1.75em 1em;
+    margin-top: 1em;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+
+}
+#main{
+    background-color: #C5CAE9;
+    padding-bottom: 0.25em;
+}
+h2{
+    background-color: #7A86C2;
+    font-weight: lighter;
+    color: #fff;
+    margin-top: 0;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}
+div{
+    margin-left: 1em;
+}
+div #title {
+    margin-right: 1em;
+    width: 98.5%;
+}
+div #Description{
+    width: 98.5%;
+    padding-bottom: 4em;
+    text-align: top;
+}
+
+
+#location{
+    margin-left: 1em;
+}
+#location p select{
+    width: 35%;
+    padding: 0.25em;
+}
+#location p #city{
+    padding: 0.25em;
+    width: 34.2%;
+}
+
+
+#copy{
+    border-style: solid;
+    border-color: #9FA8DA;
+    float: right;
+    width: 30em;
+    margin-top: -10em;
+    margin-right: 0.5em;
+    padding-left: 0.5em;
+}
+#types{
+    border-style: solid;
+    border-color: #9FA8DA;
+    float: right;
+    width: 30em;
+    margin-top: -5.5em;
+    margin-right: 0.5em;
+    padding-left: 0.5em;
+}
+
+#accept{
+    background-color: #9FA8DA;
+    padding: 0.25em 0 0.25em 0.25em;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 97.5%;
+}
+
+#rate{
+    margin-left: 1em;
+}
+
+#date{
+    border-style: solid;
+    border-color: #9FA8DA;
+    float: right;
+    width: 30em;
+    margin-top: -7.9em;
+    margin-right: 0.5em;
+    padding-left: 0.5em;
+}
+
+#button{
+    background-color: #9FA8DA;
+    padding: 1em;
+    width: 96%;
+    margin: 2.5em 1em 0.4em 1em;
+}
+#button #submit{
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10%;
+    box-shadow: 0px 4.5px #888888;
+    padding: 0.5em;
+    width: 5%;
+    background-color: #E91E63;
+    margin-right: 0.25em;
+    color: #fff;
+}
+#button #clear{
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10%;
+    box-shadow: 0px 4.5px #888888;
+    padding: 0.5em;
+    width: 5%;
+    background-color: #E91E63;
+    margin-right: 0.25em;
+    color: #fff;
+}
